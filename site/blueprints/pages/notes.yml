@@ -21,6 +21,7 @@ columns:
         extends: sections/notes
         label: In Review
         status: unlisted
+        layout: cardlets
 
   - width: 2/3
     # In the second column, we reuse the same section, this time for listed pages and with a different headline
