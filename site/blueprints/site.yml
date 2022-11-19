@@ -8,6 +8,8 @@
 columns:
   - width: 1/1
     sections:
+      # With the stats section, you can show all sorts of statistics in a nice way.
+      # This doesn't have to be about the site like in this example, but can be data about your shop, for ex.
       stats:
         label: Site status
         type: stats
@@ -24,7 +26,6 @@ columns:
           - label: Number of users
             value: "{{ kirby.users.count}}"
             theme: positive
-
 
   # The first column has one section for the subpages of the `photography` page in card layout
   # It reuses the pages section defined in `/site/blueprints/sections/albums.yml`
@@ -52,3 +53,8 @@ columns:
           - about
           - home
           - default
+          - error
+        help: >
+          This site also has an error page, it is however hidden.
+          To show the error page in this list, remove the `read: false` option from the `error.yml` blueprint and add the `error` template in the pages section in `site.yml`.
+
