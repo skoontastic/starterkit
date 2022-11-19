@@ -11,6 +11,6 @@ layout: cards
 template: album
 empty: No albums yet
 image:
-  query: page.cover
+  query: page.cover.toFile
   cover: true
   ratio: 5/4

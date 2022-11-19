@@ -5,11 +5,14 @@
 type: pages
 label: Notes
 parent: kirby.page("notes")
-info: "{{ page.published }}"
+info: "{{ page.date.toDate('Y-m-d') }}"
 template: note
 empty: No notes yet
 sortBy: date desc
 image:
+  # page.cover is a method defined in `/site/models/note.php`,
+  # therefore we don't have to convert it to a file object here
+  # compare with album.yml for the difference
   query: page.cover
   cover: true
   ratio: 3/2

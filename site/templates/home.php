@@ -33,17 +33,8 @@
     <li>
       <a href="<?= $album->url() ?>">
         <figure>
-          <?php
-          /*
-            The `cover()` method defined in the `album.php`
-            page model can be used everywhere across the site
-            for this type of page
 
-            We can automatically resize images to a useful
-            size with Kirby's built-in image manipulation API
-          */
-          ?>
-          <?php if ($cover = $album->cover()): ?>
+          <?php if ($cover = $album->cover()->toFile()): ?>
           <?= $cover->resize(1024, 1024) ?>
           <?php endif ?>
           <figcaption>

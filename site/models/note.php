@@ -23,9 +23,4 @@ class NotePage extends Page
     {
         return $this->content()->cover()->toFile() ?? $this->image();
     }
-
-    public function published($format = null)
-    {
-        return parent::date()->toDate($format ?? 'd M, Y');
-    }
 }
