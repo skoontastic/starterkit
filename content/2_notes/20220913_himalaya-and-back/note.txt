@@ -10,7 +10,7 @@ Cover: - file://0EV19sdwxl9RMoyQ
 
 ----
 
-Date: 2020-09-13 00:00:00
+Date: 2022-09-13 00:00:00
 
 ----
 
@@ -18,11 +18,11 @@ Author:
 
 ----
 
-Related: 
+Tags: environment, nepal, mountains
 
 ----
 
-Tags: environment, nepal, mountains
+Related: 
 
 ----
 

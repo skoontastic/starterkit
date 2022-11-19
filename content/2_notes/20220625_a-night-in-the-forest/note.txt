@@ -6,7 +6,11 @@ Text: [{"content":{"text":"<p>Far far away, behind the word mountains, far from 
 
 ----
 
-Date: 2019-06-25 00:00:00
+Cover: 
+
+----
+
+Date: 2022-06-25 00:00:00
 
 ----
 
@@ -19,10 +23,6 @@ Tags: forest, trees
 ----
 
 Subheading: 
-
-----
-
-Cover: 
 
 ----
 
