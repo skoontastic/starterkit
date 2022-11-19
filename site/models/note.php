@@ -1,5 +1,7 @@
 <?php
 
+use Kirby\Cms\Page;
+
 /**
  * Page models extend Kirby's default page object.
  *

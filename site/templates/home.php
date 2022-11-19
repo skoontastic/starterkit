@@ -1,4 +1,9 @@
 <?php
+/**
+ * @var Kirby\Cms\Page|null $photographyPage;
+ * @var Kirby\Cms\Page $album;
+ */
+
 /*
   Templates render the content of your pages.
 

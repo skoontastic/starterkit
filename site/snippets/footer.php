@@ -1,4 +1,9 @@
 <?php
+/**
+ * @var Kirby\Cms\Site $site;
+ * @var Kirby\Cms\Page $example;
+ */
+
 /*
   Snippets are a great way to store code snippets for reuse
   or to keep your templates clean.

@@ -1,4 +1,10 @@
 <?php
+/**
+ * @var Kirby\Cms\Page $page;
+ * @var Kirby\Cms\Pages $notes;
+ * @var Kirby\Cms\Page $note;
+ */
+
 /*
   Templates render the content of your pages.
 

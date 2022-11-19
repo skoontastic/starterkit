@@ -1,4 +1,8 @@
 <?php
+/**
+ * @var Kirby\Cms\Pagination $pagination;
+ */
+
 /*
   Snippets are a great way to store code snippets for reuse
   or to keep your templates clean.

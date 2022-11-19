@@ -1,4 +1,10 @@
 <?php
+/**
+ * @var Kirby\Cms\Page $page;
+ * @var Kirby\Cms\Files $gallery;
+ * @var Kirby\Cms\File $image;
+ */
+
 /*
   Templates render the content of your pages.
 

@@ -1,4 +1,8 @@
 <?php
+/**
+ * @var Kirby\Cms\Page $page;
+ */
+
 /*
   Templates render the content of your pages.
 

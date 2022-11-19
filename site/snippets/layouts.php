@@ -1,4 +1,9 @@
 <?php
+/**
+ * @var Kirby\Cms\Field $field;
+ * @var Kirby\Cms\LayoutColumn $column;
+ */
+
 /*
   Snippets are a great way to store code snippets for reuse
   or to keep your templates clean.
