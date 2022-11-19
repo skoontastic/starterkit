@@ -23,6 +23,17 @@
 ?>
 <?php snippet('header') ?>
 
+<?php
+/*
+  `$page->cover()` here does not refer to the field with the same name,
+  but a method we defined in the `note.php` page model. The method returns
+  the field value converted to a file object or falls back to a default image.
+  This method can be used everywhere across the site for this type of page.
+
+  We can automatically resize images to a useful
+  size with Kirby's built-in image manipulation API
+*/
+?>
 <?php if ($cover = $page->cover()): ?>
 <a href="<?= $cover->url() ?>" data-lightbox class="img" style="--w:2; --h:1">
   <?= $cover->crop(1200, 600) ?>
