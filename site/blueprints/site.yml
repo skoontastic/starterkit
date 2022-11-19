@@ -6,6 +6,26 @@
 
 # The layout of this form has two columns:
 columns:
+  - width: 1/1
+    sections:
+      stats:
+        label: Site status
+        type: stats
+        reports:
+          - label: Total number of pages
+            value: "{{ site.index.count}}"
+            theme: positive
+          - label: Number of unpublished pages
+            value: "{{ site.index(true).filterBy('status', 'draft').count}}"
+            theme: negativ
+          - label: Number of files
+            value: "{{ site.index(true).files.count}}"
+            theme: positive
+          - label: Number of users
+            value: "{{ kirby.users.count}}"
+            theme: positive
+
+
   # The first column has one section for the subpages of the `photography` page in card layout
   # It reuses the pages section defined in `/site/blueprints/sections/albums.yml`
   - width: 1/2
