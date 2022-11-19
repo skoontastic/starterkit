@@ -27,16 +27,19 @@
 <aside class="contact">
   <h2 class="h1">Get in contact</h2>
   <div class="grid" style="--gutter: 1.5rem">
-    <section class="column text" style="--columns: 4">
-      <h3>Address</h3>
-      <?= $page->address() ?>
-    </section>
-    <section class="column text" style="--columns: 4">
-      <h3>Email</h3>
-      <p><?= Html::email($page->email()) ?></p>
-      <h3>Phone</h3>
-      <p><?= Html::tel($page->phone()) ?></p>
-    </section>
+    <?php if ($contact = $page->contact()->toObject()): ?>
+      <section class="column text" style="--columns: 4">
+        <h3>Address</h3>
+        <p><?= $contact->address() ?></p>
+      </section>
+      <section class="column text" style="--columns: 4">
+
+        <h3>Email</h3>
+        <p><?= Html::email($contact->email()) ?></p>
+        <h3>Phone</h3>
+        <p><?= Html::tel($contact->phone()) ?></p>
+      </section>
+    <?php endif ?>
     <section class="column text" style="--columns: 4">
       <h3>On the web</h3>
       <ul>

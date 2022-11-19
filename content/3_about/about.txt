@@ -6,15 +6,11 @@ Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image
 
 ----
 
-Address: Mægazine Inc. <br>Sesamestreet 1 <br>Gotham City <br>USA
+Contact:
 
-----
-
-Email: mail@maegazine.com
-
-----
-
-Phone: +49 1234 5678
+address: 'Mægazine Inc.<br>Sesamestreet 1<br>Gotham City<br>USA'
+email: mail@maegazine.com
+phone: +49 1234 5678
 
 ----
 
@@ -37,3 +33,15 @@ Text: <p>Far far away, behind the word mountains, far from the countries Vokalia
 ----
 
 Uuid: D1yCxHPlHzgzBJI5
+
+----
+
+Address: Mægazine Inc. <br>Sesamestreet 1 <br>Gotham City <br>USA
+
+----
+
+Email: mail@maegazine.com
+
+----
+
+Phone: +49 1234 5678
