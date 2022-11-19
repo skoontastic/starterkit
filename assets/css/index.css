@@ -421,4 +421,19 @@ hr {
   color: var(--color-text-grey);
 }
 
+ul.gallery {
+  --gutter: 0.5rem;
+  --min: 2rem;
+  display: grid;
+  grid-gap: var(--gutter);
+  grid-template-columns: repeat(auto-fit, minmax(var(--min), 1fr));
+  grid-auto-flow: dense;
+  margin-left: 0;
+}
+
+ul.gallery li {
+  list-style: none;
+}
+
+
 
