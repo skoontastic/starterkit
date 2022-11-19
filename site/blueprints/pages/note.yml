@@ -28,6 +28,11 @@ columns:
   - width: 2/3
     # This columns only has a single field
     fields:
+      info:
+        label: Permanent URL
+        type: info
+        text: "{{ page.permalink}}"
+
       text:
         type: blocks
 
