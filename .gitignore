@@ -4,6 +4,15 @@
 Icon
 .DS_Store
 
+# Vendor Items
+# ---------------
+/kirby
+/vendor
+
+# Content
+# ---------------
+/content/*
+
 # Temporary files
 # ---------------
 
